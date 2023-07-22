@@ -15,6 +15,11 @@ First, the original data is **normalized** to have a mean of 0 and a variance of
 ## Best n_components
 The **eigenvalues** are presented below in descending order.
 
-The **elbow** method is employed to select the optimal n_components, which involves retaining data projections only onto principal components with significant eigenvalues.
+The **elbow** method is employed to select the **optimal n_components**, which involves retaining data projections only onto principal components with significant eigenvalues.
 
 <img src="/readme_images/elbow.png">
+
+## Eigenfaces
+
+<img src="/readme_images/first4.png">
+<img src="/readme_images/last4.png">
