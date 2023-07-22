@@ -7,6 +7,10 @@ Performing PCA on the "[emotion_detection](https://github.com/fardinabbasi/PCA/t
 
 ### How does PCA work?
 First, the original data is **normalized** to have a mean of 0 and a variance of 1.
+
+Next, the normalized data is transformed into another feature space through projection on the eigenvectors (U): $Z = U^T X$.
+
+The procedure for finding U is illustrated below.
 <div style="display: flex;">
     <img src="/readme_images/s1.jpg">
     <img src="/readme_images/s2.jpg">
@@ -20,6 +24,6 @@ The **elbow** method is employed to select the **optimal n_components**, which i
 <img src="/readme_images/elbow.png">
 
 ## Eigenfaces
-
+Eigenfaces are a set of **eigenvectors** that are used in **facial recognition** and **image compression**.
 <img src="/readme_images/first4.png">
 <img src="/readme_images/last4.png">
